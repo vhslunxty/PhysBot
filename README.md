@@ -60,6 +60,6 @@ Une fois le bot en ligne, utilisez ces commandes pour configurer vos salons :
 
 ---
 
-## 📞 Support
+### 📞 Support
 
 > Discord : vhs_lunxty
