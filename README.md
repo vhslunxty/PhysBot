@@ -57,3 +57,9 @@ Une fois le bot en ligne, utilisez ces commandes pour configurer vos salons :
 ---
 
 > **⚠️ AVERTISSEMENT SÉCURITÉ :** Ne partagez jamais votre fichier `bot.py` sans avoir effacé votre **Token Discord**. Si votre token est publié, n'importe qui pourra prendre le contrôle de votre bot.
+
+---
+
+## 📞 Support
+
+> Discord : vhs_lunxty
