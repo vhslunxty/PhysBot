@@ -1,7 +1,6 @@
 # 🤖 PhysBot
 
-[! [Версия Python](https://img.shields.io/badge/python-3.8+-blue)](https://www.python.org/)
-[! [Библиотека](https://img.shields.io/badge/library-discord.py-orange)](https://discordpy.readthedocs.io/)
+[![Версия Python](https://img.shields.io/badge/python-3.8+-blue)](https://www.python.org/)
 
 ***PhysBot** - многофункциональный бот Discord, разработанный для управления сервером сообщества и интеграции в реальном времени игровых серверов **Garry's Mod**.
 
