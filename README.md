@@ -1,4 +1,5 @@
-# 🤖 PhysBot
+# 🤖 PhysBot 
+## For France Server
 
 [![Версия Python](https://img.shields.io/badge/python-3.8+-blue)](https://www.python.org/)
 
