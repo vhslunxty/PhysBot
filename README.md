@@ -1,65 +1,65 @@
 # 🤖 PhysBot
 
-[![Python Version](https://img.shields.io/badge/python-3.8%2B-blue)](https://www.python.org/)
-[![Library](https://img.shields.io/badge/library-discord.py-orange)](https://discordpy.readthedocs.io/)
+[! [Версия Python](https://img.shields.io/badge/python-3.8+-blue)](https://www.python.org/)
+[! [Библиотека](https://img.shields.io/badge/library-discord.py-orange)](https://discordpy.readthedocs.io/)
 
-**PhysBot** est un bot Discord multifonction conçu pour la gestion de serveurs communautaires et l'intégration en temps réel de serveurs de jeu **Garry's Mod**.
-
----
-
-### 🌟 Fonctionnalités principales
-
-* **📊 Monitoring GMod :** Affiche le nombre de joueurs, la map et le statut du serveur en temps réel via le protocole Source.
-* **🛡️ Modération complète :** Système de sanctions incluant `warn`, `mute`, `kick`, `ban` et `clear` avec historique.
-* **🎫 Système de Tickets :** Gestion des demandes (Assistance, RP, Staff) via des boutons interactifs.
-* **🔑 Permissions par niveaux :** 4 paliers de permissions personnalisés (Junior, Modérateur, Senior, Admin).
-* **🎉 Giveaways :** Module de création de concours avec tirage au sort automatique et système de reroll.
-* **📝 Logs avancés :** Surveillance automatique des messages supprimés/édités et des mouvements de membres.
+***PhysBot** - многофункциональный бот Discord, разработанный для управления сервером сообщества и интеграции в реальном времени игровых серверов **Garry's Mod**.
 
 ---
 
-### 🚀 Guide d'installation
+### 🌟 Основные функции
 
-1.  **Prérequis :**
-    Assurez-vous d'avoir Python installé. Installez ensuite la dépendance nécessaire :
-    ```bash
+* **📊 Мониторинг GMod :** Отображает количество игроков, карты и статус сервера в реальном времени через исходный протокол.
+* **🛡️ Полное сдерживание:** Система санкций, включающая `warn`, `mute`, `kick`, `ban` и `clear` с историей.
+* **🎫 Система тикетов:** Управление запросами (поддержка, RP, персонал) с помощью интерактивных кнопок.
+* **🔑 Полномочия по уровню:** 4 уровня настраиваемых полномочий (младший, модератор, старший, администратор).
+* **🎉 Призы:** Модуль создания конкурса с автоматической случайной жеребьёвкой и системой повторных турниров.
+* **📝 Расширенные журналы:** Автоматический мониторинг удаленных/отредактированных сообщений и движений участников.
+
+---
+
+### 🚀 Руководство по установке
+
+1. **Предпосылки:***
+    Убедитесь, что установлен Python. Затем установите необходимую зависимость:
+    `бэш
     pip install -r requirements.txt
-    ```
+    `
 
-2.  **Configuration du fichier `bot.py` :**
-    Modifiez la section `CONFIG` au début du script :
-    * `token` : Votre token secret Discord.
-    * `owner_id` : Votre ID Discord pour les droits administrateur.
-    * `gmod_server` : L'IP et le Port de votre serveur GMod.
+2. **Настройка файла `bot.py` :**
+    Отредактируйте раздел `CONFIG` в начале сценария:
+    * `token`: Ваш секретный маркер Discord.
+    * `owner_id`: ваш Discord ID для административных прав.
+    * `gmod_server` - IP-адрес и порт сервера GMod.
 
-3.  **Lancement :**
-    ```bash
+3. **Запуск:***
+    `бэш
     python bot.py
-    ```
+    `
 
 ---
 
-### ⚙️ Initialisation du serveur
+### ⚙️ Инициализация сервера
 
-Une fois le bot en ligne, utilisez ces commandes pour configurer vos salons :
-* **`+logs`** : Crée automatiquement la catégorie et les salons de logs.
-* **`+setupticket`** : Envoie le menu interactif pour l'ouverture des tickets.
-* **`+setupgmod`** : Affiche l'embed d'état du serveur GMod (actualisé toutes les 30s).
-
----
-
-### 📂 Structure du projet
-* `bot.py` : Le code source principal du bot.
-* `requirements.txt` : Liste des dépendances (discord.py).
-* `keep_alive.py` : Script pour maintenir le bot actif 24/7.
-* `.gitignore` : Pour éviter d'envoyer les fichiers temporaires sur GitHub.
+После того как бот начнет работать, воспользуйтесь следующими командами для настройки каналов:
+* **`+logs`** : автоматически создает категории и журнальные залы.
+* **`+setupticket`** : отправляет интерактивное меню для открытия билетов.
+* **`+setupgmod`** : отображает встроенный статус сервера GMod (обновляется каждые 30 минут).
 
 ---
 
-> **⚠️ AVERTISSEMENT SÉCURITÉ :** Ne partagez jamais votre fichier `bot.py` sans avoir effacé votre **Token Discord**. Si votre token est publié, n'importe qui pourra prendre le contrôle de votre bot.
+### 📂 Структура проекта
+* `bot.py`: Основной исходный код бота.
+* `requirements.txt` : Список зависимостей (discord.py).
+* `keep_alive.py` : Скрипт, чтобы держать бот активным 24/7.
+* `.gitignore` : чтобы избежать загрузки временных файлов на GitHub.
 
 ---
 
-### 📞 Support
+> *⚠️ ПРЕДУПРЕЖДЕНИЕ ПО БЕЗОПАСНОСТИ :** Никогда не делитесь своим файлом `bot.py` без удаления вашего **маркера Discord**. Если ваш маркер опубликован, любой пользователь может взять под контроль ваш бот.
 
-> Discord : vhs_lunxty
+---
+
+### 📞 Поддержка
+
+> Discord: vhs_lunxty
